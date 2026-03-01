@@ -1,0 +1,17 @@
+{
+  "monitors": {
+    "forum": "https://carbonite.co.za/index.php?forums/monitors.9/",
+    "output": "listings/monitors.jsonl",
+    "query": "27-34 inch 4K IPS monitors in Western Cape under R10000"
+  },
+  "laptops": {
+    "forum": "https://carbonite.co.za/index.php?forums/laptops.32/",
+    "output": "listings/laptops.jsonl",
+    "query": "MacBook with M series processor and at least 32GB RAM"
+  },
+  "audio": {
+    "forum": "https://carbonite.co.za/index.php?forums/audio.201/",
+    "output": "listings/audio.jsonl",
+    "query": null
+  }
+}
