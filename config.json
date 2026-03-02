@@ -13,5 +13,25 @@
     "forum": "https://carbonite.co.za/index.php?forums/audio.201/",
     "output": "listings/audio.jsonl",
     "query": null
+  },
+  "gpu": {
+    "forum": "https://carbonite.co.za/index.php?forums/nvidia_gpu/",
+    "output": "listings/gpu.jsonl",
+    "query": "GPU upgrade from GTX 1070, good value, located in Western Cape"
+  },
+  "keyboards": {
+    "forum": "https://carbonite.co.za/index.php?forums/peripherals.18/",
+    "output": "listings/keyboards.jsonl",
+    "query": "wireless mechanical keyboard, TKL or 65% or 75% layout (no numpad), tactile or linear switches (not clicky, not blue switches), located in Western Cape"
+  },
+  "drones": {
+    "forum": "https://carbonite.co.za/index.php?forums/drones.92/",
+    "output": "listings/drones.jsonl",
+    "query": "DJI drone with camera, good condition, located in Western Cape, under R15000"
+  },
+  "cameras": {
+    "forum": "https://carbonite.co.za/index.php?forums/photo-video-security.93/",
+    "output": "listings/cameras.jsonl",
+    "query": "Sony A6500 or A6600 or Fujifilm XS-10 or XS-20 or XE-10 or XT-3 or XT-4 or XT-5 or similar camera for hobby/enthusiast photography, mirrorless camera body or kit, located in Western Cape"
   }
 }
