@@ -1,36 +1,103 @@
-# Monitor Search
+# Deal Finder
 
-Scraping Carbonite.co.za to find 4K monitor deals in the Cape Town area.
+A CLI toolkit for scraping [Carbonite.co.za](https://carbonite.co.za) classifieds and finding deals that match your criteria using LLM-powered filtering.
 
-## Search Criteria
-- Size: 27" - 34"
-- Resolution: 4K (2160p) preferred
-- Panel: IPS or colour-accurate
-- Location: Western Cape (within ~65km of Cape Town)
+## How It Works
 
-## Usage
-
-```bash
-# Discover listing URLs (defaults: --pages 3 --days 7)
-python scrape_forum.py --pages 15 --days 60 > urls.txt
-
-# Fetch metadata as JSONL
-grep "^https://" urls.txt | xargs python fetch_listings.py > listings.jsonl
-
-# Filter Western Cape 4K monitors
-jq -c 'select(.province=="Western Cape" and .monitor_vert_resolution=="2160p (4k)")' listings.jsonl
+```mermaid
+flowchart LR
+    A[Carbonite Forum] -->|scrape_forum.py| B[URLs]
+    B -->|fetch_listings.py| C[listings.jsonl]
+    C -->|classify.py| D[Matched Listings]
 ```
 
-## Best Deals Found (Western Cape, 4K)
-| Monitor | Price | Location |
-|---------|-------|----------|
-| Samsung 28" 4K | R2,000 | Cape Town |
-| Dell S2817Q 28" 4K | R2,100 | Plettenberg Bay |
-| Dell S2817Q 27" 4K | R2,500 | Cape Town (Southern Suburbs) |
-| Samsung G7 240Hz | R6,000 | Mossel Bay |
-| Samsung QN90B 43" 4K 144Hz | R6,500 | Cape Town |
-| Dell G3223Q 32" 4K 144Hz IPS | R8,000 | Cape Town (Northern Suburbs) |
+1. **Scrape** - Discover listing URLs from forum pages
+2. **Fetch** - Extract metadata (title, price, location, specs) into JSONL
+3. **Classify** - Use an LLM to filter listings matching your search criteria
+
+## Quick Start
+
+```bash
+# Install dependencies
+uv sync
+
+# Refresh all configured categories
+./refresh.sh --all
+
+# Or refresh a specific category
+./refresh.sh monitors
+```
+
+## Configuration
+
+Edit `config.json` to define your search targets:
+
+```json
+{
+  "monitors": {
+    "forum": "https://carbonite.co.za/index.php?forums/monitors.9/",
+    "output": "listings/monitors.jsonl",
+    "query": "27-34 inch 4K IPS monitors in Western Cape under R10000"
+  }
+}
+```
+
+Each target has:
+- `forum` - The Carbonite forum URL to scrape
+- `output` - Where to store the listings
+- `query` - Natural language criteria for LLM filtering (optional)
+
+## Current Categories
+
+| Category | Query |
+|----------|-------|
+| monitors | 27-34" 4K IPS, Western Cape, under R10k |
+| laptops | MacBook M-series, 32GB+ RAM |
+| gpu | Upgrade from GTX 1070, Western Cape |
+| keyboards | Wireless mechanical, TKL/65%/75%, tactile/linear |
+| drones | DJI with camera, Western Cape, under R15k |
+| cameras | Sony A6xxx / Fujifilm X-series mirrorless |
+
+## Manual Usage
+
+```bash
+# Discover URLs (defaults: 3 pages, 7 days)
+uv run python scrape_forum.py --target monitors --pages 15 --days 60
+
+# Fetch metadata from URLs
+echo "https://carbonite.co.za/..." | xargs uv run python fetch_listings.py --merge listings/monitors.jsonl
+
+# Classify against criteria
+uv run python classify.py listings/monitors.jsonl "4K monitor under R5000"
+
+# Filter with jq
+jq -c 'select(.match==true)' listings/monitors.jsonl
+```
+
+## Project Structure
+
+```
+deal-finder/
+├── config.json          # Search targets and criteria
+├── refresh.sh           # One-command refresh script
+├── scrape_forum.py      # URL discovery from forum pages
+├── fetch_listings.py    # Metadata extraction
+├── classify.py          # LLM-powered filtering
+├── listings.py          # Core fetch/validate functions
+└── listings/            # JSONL data files
+    ├── monitors.jsonl
+    ├── laptops.jsonl
+    └── ...
+```
+
+## Requirements
+
+- Python 3.12+
+- [uv](https://github.com/astral-sh/uv) for dependency management
+- [kiro-cli](https://github.com/aws/kiro-cli) for LLM classification
+- [jq](https://jqlang.github.io/jq/) for filtering (optional)
 
 ## Docs
-- [Technical Design](docs/technical-design.md) - Architecture and script details
-- [uv Primer](docs/uv-primer.md) - How uv works and why we use it
+
+- [Technical Design](docs/technical-design.md) - Architecture details
+- [uv Primer](docs/uv-primer.md) - Why we use uv
