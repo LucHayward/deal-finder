@@ -7,12 +7,7 @@
   "laptops": {
     "forum": "https://carbonite.co.za/index.php?forums/laptops.32/",
     "output": "listings/laptops.jsonl",
-    "query": "MacBook with M series processor and at least 32GB RAM"
-  },
-  "audio": {
-    "forum": "https://carbonite.co.za/index.php?forums/audio.201/",
-    "output": "listings/audio.jsonl",
-    "query": null
+    "query": "MacBook with M series processor and at least 24GB RAM"
   },
   "gpu": {
     "forum": "https://carbonite.co.za/index.php?forums/nvidia_gpu/",
@@ -24,14 +19,9 @@
     "output": "listings/keyboards.jsonl",
     "query": "wireless mechanical keyboard, TKL or 65% or 75% layout (no numpad), tactile or linear switches (not clicky, not blue switches), located in Western Cape"
   },
-  "drones": {
-    "forum": "https://carbonite.co.za/index.php?forums/drones.92/",
-    "output": "listings/drones.jsonl",
-    "query": "DJI drone with camera, good condition, located in Western Cape, under R15000"
-  },
   "cameras": {
     "forum": "https://carbonite.co.za/index.php?forums/photo-video-security.93/",
     "output": "listings/cameras.jsonl",
-    "query": "Sony A6500 or A6600 or Fujifilm XS-10 or XS-20 or XE-10 or XT-3 or XT-4 or XT-5 or similar camera for hobby/enthusiast photography, mirrorless camera body or kit, located in Western Cape"
+    "query": "Fujifilm X-T4 or X-T3 or X-S10 or X-S20 or Sony A6600, mirrorless camera body or kit, good condition, located in Western Cape, under R20000"
   }
 }

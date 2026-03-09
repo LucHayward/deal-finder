@@ -26,7 +26,7 @@ def fetch(url, check_only=False):
             return {'url': url, 'status': status, 'title': title, 'checked_at': datetime.now(timezone.utc).isoformat()}
         
         data = {'url': url, 'title': title, 'status': status, 'fetched_at': datetime.now(timezone.utc).isoformat()}
-        for dl in soup.select('div.blockStatus-message dl[data-field]'):
+        for dl in soup.select('dl[data-field]'):
             field = dl['data-field']
             dd = dl.find('dd')
             if dd:

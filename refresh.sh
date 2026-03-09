@@ -3,6 +3,9 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+CONCURRENCY=1
+PARALLEL=1
+
 refresh_target() {
     local TARGET="$1"
     DB=$(python3 -c "import json; print(json.load(open('config.json'))['$TARGET']['output'])")
@@ -16,20 +19,30 @@ refresh_target() {
         return 0
     fi
 
-    echo "$URLS" | xargs uv run python fetch_listings.py --merge "$DB"
+    echo "$URLS" | xargs uv run python fetch_listings.py --merge "$DB" -c "$CONCURRENCY"
 
     # Classify if a query is configured
     QUERY=$(python3 -c "import json; q=json.load(open('config.json'))['$TARGET'].get('query'); print(q or '')")
     if [ -n "$QUERY" ]; then
-        uv run python classify.py "$DB" "$QUERY"
+        uv run python classify.py "$DB" "$QUERY" --parallel "$PARALLEL"
     fi
 }
 
-if [ "${1:-}" = "--all" ]; then
-    for TARGET in $(python3 -c "import json; print(' '.join(json.load(open('config.json')).keys()))"); do
-        echo "=== Refreshing $TARGET ==="
-        refresh_target "$TARGET"
+# Parse arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -c|--concurrency) CONCURRENCY="$2"; shift 2 ;;
+        -p|--parallel) PARALLEL="$2"; shift 2 ;;
+        --all) ALL=1; shift ;;
+        *) TARGET="$1"; shift ;;
+    esac
+done
+
+if [ "${ALL:-}" = "1" ]; then
+    for T in $(python3 -c "import json; print(' '.join(json.load(open('config.json')).keys()))"); do
+        echo "=== Refreshing $T ==="
+        refresh_target "$T"
     done
 else
-    refresh_target "${1:-monitors}"
+    refresh_target "${TARGET:-monitors}"
 fi
