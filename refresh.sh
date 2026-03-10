@@ -22,9 +22,14 @@ refresh_target() {
     echo "$URLS" | xargs uv run python fetch_listings.py --merge "$DB" -c "$CONCURRENCY"
 
     # Classify if a query is configured
-    QUERY=$(python3 -c "import json; q=json.load(open('config.json'))['$TARGET'].get('query'); print(q or '')")
+    read -r QUERY PROVINCE < <(python3 -c "
+import json; c=json.load(open('config.json'))['$TARGET']
+print(c.get('query') or '', '\t', c.get('province') or '')
+")
     if [ -n "$QUERY" ]; then
-        uv run python classify.py "$DB" "$QUERY" --parallel "$PARALLEL"
+        CLASSIFY_ARGS=(uv run python classify.py "$DB" "$QUERY" --parallel "$PARALLEL" --only-new)
+        [ -n "$PROVINCE" ] && CLASSIFY_ARGS+=(--province "$PROVINCE")
+        "${CLASSIFY_ARGS[@]}"
     fi
 }
 
