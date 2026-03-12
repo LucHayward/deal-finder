@@ -4,7 +4,6 @@
 
 - You MUST commit after completing each discrete feature, fix, or refactor — do not batch unrelated changes.
 - Use Conventional Commits format: `type(scope): description`
-- Include `🤖 Assisted by AI` in commit body.
 - If you realize uncommitted work exists from a previous change, commit it before starting new work.
 
 ## Code Style
