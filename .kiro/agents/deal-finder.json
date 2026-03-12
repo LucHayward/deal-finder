@@ -1,0 +1,7 @@
+{
+  "name": "deal-finder",
+  "description": "Deal finder development agent",
+  "resources": [
+    "file://.kiro/steering/project-rules.md"
+  ]
+}
