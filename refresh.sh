@@ -27,7 +27,8 @@ import json; c=json.load(open('config.json'))['$TARGET']
 print((c.get('query') or '') + '\t' + (c.get('province') or ''))
 ")
     if [ -n "$QUERY" ]; then
-        CLASSIFY_ARGS=(uv run python classify.py "$DB" "$QUERY" --parallel "$PARALLEL" --only-new)
+        CLASSIFY_ARGS=(uv run python classify.py "$DB" "$QUERY" --parallel "$PARALLEL")
+        [ "${RECLASSIFY:-}" != "1" ] && CLASSIFY_ARGS+=(--only-new)
         [ -n "$PROVINCE" ] && CLASSIFY_ARGS+=(--province "$PROVINCE")
         "${CLASSIFY_ARGS[@]}"
     fi
@@ -39,6 +40,7 @@ while [[ $# -gt 0 ]]; do
         -c|--concurrency) CONCURRENCY="$2"; shift 2 ;;
         -p|--parallel) PARALLEL="$2"; shift 2 ;;
         --all) ALL=1; shift ;;
+        --reclassify) RECLASSIFY=1; shift ;;
         *) TARGET="$1"; shift ;;
     esac
 done
