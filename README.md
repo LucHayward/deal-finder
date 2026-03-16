@@ -97,6 +97,13 @@ deal-finder/
 - [kiro-cli](https://github.com/aws/kiro-cli) for LLM classification
 - [jq](https://jqlang.github.io/jq/) for filtering (optional)
 
+## TODO
+
+- [ ] Tighten GPU query — 68 matches is too broad. Add price cap or target specific cards
+- [ ] Review laptop (2) and keyboard (5) matches for quality
+- [ ] Improve province-less listings — check city field against known WC cities for deterministic filtering
+- [ ] Architecture improvements — cron scheduling, Python CLI, web dashboard, or notifications
+
 ## Docs
 
 - [Technical Design](docs/technical-design.md) - Architecture details
