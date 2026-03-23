@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 BATCH_SIZE = 50
 
 TAG_HINTS = {
-    "mount": "Lens mount system (e.g. 'Sony E', 'Fujifilm X', 'Canon RF', 'Sigma/Tamron E')",
+    "mount": "Lens mount compatibility (e.g. 'Sony E', 'Fujifilm X', 'Canon RF'). Use the mount the lens/camera fits, not the manufacturer",
     "format": "Sensor format (e.g. 'APS-C', 'Full-frame')",
 }
 
