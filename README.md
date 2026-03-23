@@ -84,6 +84,8 @@ deal-finder/
 ├── fetch_listings.py    # Metadata extraction
 ├── classify.py          # LLM-powered filtering
 ├── listings.py          # Core fetch/validate functions
+├── fb_login.py          # FB cookie export helper (Camoufox)
+├── fb_marketplace.py    # FB Marketplace scraper (Camoufox)
 └── listings/            # JSONL data files
     ├── monitors.jsonl
     ├── laptops.jsonl
@@ -97,6 +99,22 @@ deal-finder/
 - [kiro-cli](https://github.com/aws/kiro-cli) for LLM classification
 - [jq](https://jqlang.github.io/jq/) for filtering (optional)
 
+## Facebook Marketplace (PoC)
+
+Browser automation scraper using [Camoufox](https://camoufox.com/) (stealth Firefox with C++-level fingerprint spoofing). No official API exists for browsing Marketplace listings — this is the only path.
+
+```bash
+# First time: log in manually and save cookies
+uv run python fb_login.py
+# → Log into Facebook in the browser window, then press Enter
+
+# Scrape listings
+uv run python fb_marketplace.py --query "GTX 1080" --location capetown
+uv run python fb_marketplace.py -q "Sony A6400" -l capetown -o listings/cameras-fb.jsonl
+```
+
+Status: core scraper works, pending real-cookie testing and DOM selector tuning. See [FB Marketplace PoC](docs/fb-marketplace-poc.md) for full details.
+
 ## TODO
 
 - [ ] Tighten GPU query — 68 matches is too broad. Add price cap or target specific cards
@@ -107,4 +125,5 @@ deal-finder/
 ## Docs
 
 - [Technical Design](docs/technical-design.md) - Architecture details
+- [FB Marketplace PoC](docs/fb-marketplace-poc.md) - Browser automation integration plan & status
 - [uv Primer](docs/uv-primer.md) - Why we use uv
