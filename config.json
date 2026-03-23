@@ -26,13 +26,15 @@
   "cameras": {
     "forum": "https://carbonite.co.za/index.php?forums/photo-video-security.93/",
     "output": "listings/cameras.jsonl",
-    "query": "Interchangeable-lens mirrorless camera body or kit: Fujifilm X-T3, X-T4, X-T5, X-S10, X-S20, or Sony A6400, A6500, A6600, A6700, ZV-E10, A7 IV, A7V. Not fixed-lens cameras (X100, RX100, etc), not lenses only, not security cameras, not action cameras.",
-    "province": "Western Cape"
+    "query": "Interchangeable-lens mirrorless camera body or kit: Fujifilm X-T3, X-T4, X-T5, X-T50, X-S10, X-S20, or Sony A6400, A6500, A6600, A6700, ZV-E10, A7 IV, A7V, A7C, A7C II, A7CR, A1, A1 II. Not fixed-lens cameras (X100, RX100, etc), not lenses only, not security cameras, not action cameras.",
+    "province": "Western Cape",
+    "tags": ["mount", "format"]
   },
   "camera-lenses": {
     "forum": "https://carbonite.co.za/index.php?forums/photo-video-security.93/",
     "output": "listings/camera-lenses.jsonl",
     "query": "Photography lens for Fujifilm X-mount (XF or XC) or Sony E-mount (FE or E). Includes zoom lenses, prime lenses, and camera+lens kits/bundles. Not security cameras, not adapters only, not camera bodies without lenses.",
-    "province": "Western Cape"
+    "province": "Western Cape",
+    "tags": ["mount", "format"]
   }
 }
