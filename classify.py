@@ -50,7 +50,7 @@ def _call_llm(summaries, query, model, tags=None, batch_info=""):
             pass
     return {} if tags else set()
 
-def classify(jsonl_path, query, model="claude-haiku-4.5", parallel=1, province=None, only_new=False, tags=None):
+def classify(jsonl_path, query, model="claude-sonnet-4.6", parallel=1, province=None, only_new=False, tags=None):
     with open(jsonl_path) as f:
         records = [json.loads(line) for line in f if line.strip()]
 
