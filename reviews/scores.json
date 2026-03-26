@@ -1,0 +1,80 @@
+[
+  {
+    "product": "Sony Alpha a7C II Mirrorless Digital Camera with 28-60mm Lens [Sold]",
+    "type": "camera",
+    "price": "27999",
+    "url": "https://carbonite.co.za/index.php?threads/sony-alpha-a7c-ii-mirrorless-digital-camera-with-28-60mm-lens-sold.597387/",
+    "file": "reviews/sony-alpha-a7c-ii-mirrorless-digital-camera-with-28-60mm-len.md"
+  },
+  {
+    "product": "Sony A6700 kit",
+    "type": "camera",
+    "price": "35000",
+    "url": "https://carbonite.co.za/index.php?threads/sony-a6700-kit.597675/",
+    "review_source": "dpreview",
+    "review_score": 88,
+    "file": "reviews/sony-a6700-kit.md"
+  },
+  {
+    "product": "Sony Mirrorless Camera ZV-E10 (Body Only)",
+    "type": "camera",
+    "price": "11000",
+    "url": "https://carbonite.co.za/index.php?threads/sony-mirrorless-camera-zv-e10-body-only.606681/",
+    "review_source": "dpreview",
+    "review_score": 82,
+    "file": "reviews/sony-mirrorless-camera-zv-e10-body-only.md"
+  },
+  {
+    "product": "Sigma 85mm f/1.4 DG DN Art Lens for Sony E",
+    "type": "lens",
+    "price": "15000",
+    "url": "https://carbonite.co.za/index.php?threads/sigma-85mm-f-1-4-dg-dn-art-lens-for-sony-e.605044/",
+    "file": "reviews/sigma-85mm-f-1-4-dg-dn-art-lens-for-sony-e.md"
+  },
+  {
+    "product": "Fujifilm 50-140mm f2.8 XF zoom lens",
+    "type": "lens",
+    "price": "13000",
+    "url": "https://carbonite.co.za/index.php?threads/fujifilm-50-140mm-f2-8-xf-zoom-lens.604500/",
+    "file": "reviews/fujifilm-50-140mm-f2-8-xf-zoom-lens.md"
+  },
+  {
+    "product": "Zeiss Loxia 21mm f/2.8 Lens for Sony E",
+    "type": "lens",
+    "price": "10000",
+    "url": "https://carbonite.co.za/index.php?threads/zeiss-loxia-21mm-f-2-8-lens-for-sony-e.601570/",
+    "review_source": "dxomark",
+    "review_score": 35,
+    "file": "reviews/zeiss-loxia-21mm-f-2-8-lens-for-sony-e.md"
+  },
+  {
+    "product": "Fujifilm 35mm F2 WR prime lens (black)",
+    "type": "lens",
+    "price": "3900",
+    "url": "https://carbonite.co.za/index.php?threads/fujifilm-35mm-f2-wr-prime-lens-black.595313/",
+    "file": "reviews/fujifilm-35mm-f2-wr-prime-lens-black.md"
+  },
+  {
+    "product": "Fujifilm XF 55-200mm f/3.5-4.8 R LM OIS Lens",
+    "type": "lens",
+    "price": "4000",
+    "url": "https://carbonite.co.za/index.php?threads/fujifilm-xf-55-200mm-f-3-5-4-8-r-lm-ois-lens.599460/",
+    "file": "reviews/fujifilm-xf-55-200mm-f-3-5-4-8-r-lm-ois-lens.md"
+  },
+  {
+    "product": "Fuji XF27MM F2.8 WR",
+    "type": "lens",
+    "price": "6000",
+    "url": "https://carbonite.co.za/index.php?threads/fuji-xf27mm-f2-8-wr.600415/",
+    "file": "reviews/fuji-xf27mm-f2-8-wr.md"
+  },
+  {
+    "product": "Sony 10-18mm F4 OSS Wide Angle Lens (APS-C E-mount)",
+    "type": "lens",
+    "price": "7500",
+    "url": "https://carbonite.co.za/index.php?threads/sony-10-18mm-f4-oss-wide-angle-lens-aps-c-e-mount.607069/",
+    "review_source": "dxomark",
+    "review_score": 15,
+    "file": "reviews/sony-10-18mm-f4-oss-wide-angle-lens-aps-c-e-mount.md"
+  }
+]
