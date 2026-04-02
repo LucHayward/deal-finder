@@ -1,29 +1,25 @@
-# Fujifilm XF 55-200mm f/3.5-4.8 R LM OIS Lens
-
-**Score: 8/10**
+# Fujifilm XF 55-200mm f/3.5-4.8 R LM OIS
 
 **Listing price: R4000**
 
+DxOMark: N/A — DxOMark has not published a scored lab review for this lens (specs page exists but no score). Best-in-class Fujifilm X-mount zoom for context: XF 50-140mm f/2.8 scores ~47 on DxOMark.
+
 ## Pros
-- Very sharp throughout the zoom range, even wide open; excellent stopped down
-- Outstanding OIS — effective 3-4 stops at all focal lengths
-- Silent, accurate autofocus (LM motor)
-- Excellent build quality with metal mount; internal focus (filter thread doesn't rotate)
-- Beautiful bokeh for a zoom lens; good colour rendering and CA control
+- Excellent sharpness across the zoom range, even wide open
+- Exceptionally low chromatic aberration
+- Very effective OIS (~4.5 stops claimed); silent STM autofocus
+- All-metal build with aperture ring — well above kit-lens quality
+- Compact and light relative to equivalent DSLR telephoto zooms
 
 ## Cons
-- Large and front-heavy for a mirrorless system
-- Slow max aperture (f/3.5–4.8) limits low-light use
-- Edge sharpness drops off wide open, especially at longer focal lengths
-- Zoom ring can feel stiff
+- Pixel-level softness due to software pincushion distortion correction
+- AF not as fast as DSLR peers — struggles with fast-moving subjects
+- No tripod collar
 
 ## Best Use Cases
-Wildlife, sports, travel telephoto, portraiture, events — anything needing reach on an X-mount body where the 50-140mm f/2.8 is too bulky or expensive.
-
-## Verdict
-A well-regarded, optically strong telephoto zoom for Fuji X-mount. Not the fastest or sharpest at the edges wide open, but punches well above its price class. At R4000 it's a strong buy if you need reach.
+Portraits, wildlife/nature, travel, events — anything with relatively static or slow-moving subjects. Pairs naturally with the XF 18-55mm as a two-lens kit.
 
 ## Sources
-- [PhotographyBlog — 4/5 stars](https://www.photographyblog.com/reviews/fujifilm_xf_55_200mm_f3_5_4_8_r_lm_ois_review/conclusion)
-- [DPReview — Recommended](https://www.dpreview.com/reviews/fujifilm-55-200-3p5-4p8)
-- [Admiring Light — Highly recommended](https://admiringlight.com/blog/review-fujifilm-55-200mm-r-ois/3/)
+- [DxOMark specs page](https://www.dxomark.com/Lenses/Fujifilm/Fujifilm-FUJINON-XF-55-200mm-F35-48-R-LM-OIS---Cameras-tested) — accessed 2026-03-25
+- [DPReview full review (83% Silver Award)](https://www.dpreview.com/reviews/fujifilm-55-200-3p5-4p8/5) — accessed 2026-03-25
+- [Admiring Light review](https://admiringlight.com/blog/review-fujifilm-55-200mm-r-ois/3/) — accessed 2026-03-25

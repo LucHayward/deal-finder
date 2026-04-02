@@ -1,23 +1,29 @@
 # Sony Mirrorless Camera ZV-E10 (Body Only)
 
-**Score: 8/10**
+DPReview: 82% (no award tier assigned)
+
 Listing price: R11,000
 
-## Summary
+## Pros
+- Class-leading video autofocus with face/eye detection
+- Uncropped 4K/24p from the full APS-C sensor
+- Fully articulating touchscreen — great for selfie/vlog use
+- Best-in-class battery life (440 shots / 80 min video per charge)
+- Built-in 3-capsule directional mic + headphone and mic ports
 
-- ✅ Excellent 24MP APS-C sensor — clean images up to ISO 3200, good dynamic range
-- ✅ Fast, accurate face/eye-tracking autofocus; great for solo vloggers
-- ✅ 4K/30p oversampled video, S-Log2 support, 3.5mm mic/headphone ports
-- ❌ No in-body stabilisation — lens OIS only; digital IS causes significant crop
-- ❌ No viewfinder; limited touchscreen (can't navigate menus via touch)
+## Cons
+- No in-body stabilisation (IBIS)
+- Noticeable rolling shutter ("jello effect") in 4K with movement
+- 1080p detail is below competitors at this price
+- No EVF
+- 4K/30p is cropped; only 4K/24p is full-width
 
 ## Best Use Cases
+- Static or tripod vlogging and YouTube content creation
+- Entry-level video creators who want E-mount lens flexibility
+- Livestreaming (USB-C webcam support out of the box)
 
-Vlogging, YouTube content creation, beginner filmmakers upgrading from a smartphone or compact camera. Less suited to stills-first shooters or anyone needing IBIS.
+Not ideal for action/sports, handheld vlogging without a gimbal, or stills-first shooters.
 
 ## Sources
-
-- DPReview: 82% — https://www.dpreview.com/reviews/sony-zv-e10-review
-- Trusted Reviews: 4.5/5 — https://www.trustedreviews.com/reviews/sony-zv-e10
-- RTINGS: https://rtings.com/camera/reviews/sony/zv-e10
-- Amateur Photographer: https://amateurphotographer.com/review/sony-zv-e10-review/
+- [DPReview Sony ZV-E10 Review](https://www.dpreview.com/reviews/sony-zv-e10-review) — accessed 2026-03-25

@@ -1,25 +1,28 @@
 # Sony A6700 Kit
 
-**Score: 8.5/10** | Listing price: R35,000
+DPReview: 88% — Gold Award
 
 ## Pros
-- Best-in-class APS-C autofocus — AI subject tracking (people, animals, birds, vehicles)
-- Excellent hybrid video: 4K/120p, 10-bit 4:2:2, S-Log3, S-Cinetone, Auto Framing
-- Compact & weather-sealed with full-day battery (NP-FZ100, ~570–810 shots)
-- 26MP BSI sensor with solid dynamic range and clean ISO up to ~6400
+- Best-in-class AF with subject/eye/animal tracking that outperforms Canon R7 and Fujifilm rivals
+- Oversampled 4K up to 60p from 6K; 4K/120p available (with crop); low rolling shutter at 15.8ms
+- 26MP BSI sensor with solid dynamic range and competitive JPEG output
+- Front + rear control dials — first in the a6x00 line; improved Sony menu system
+- IBIS + fully articulating touchscreen; weather-sealed magnesium body
 
 ## Cons
-- Single SD card slot (rivals Canon R7, Fujifilm X-T5 offer dual)
-- Slow burst: 11fps vs Canon R7's 30fps
-- No joystick; low-res EVF; micro HDMI port
-- Overheating reported in extended 4K sessions
+- No AF joystick (touchpad workaround is adequate but not ideal)
+- 2.36M-dot EVF is underwhelming at this price point
+- Single SD card slot only
+- Chunky, utilitarian design — no style points
+- Feature-dense setup can be overwhelming to configure
 
 ## Best Use Cases
-Travel/street, wildlife/birds, vlogging & content creation, hybrid photo+video
+- Hybrid shooters: travel, vlogging, wildlife, sports, portraiture
+- Video-first users who want 4K quality without going full-frame
+- Photographers upgrading from older a6x00 bodies
+
+## Listing Price
+R35,000
 
 ## Sources
-- DPReview — 88/100, Gold Award
-- Engadget — 88/100
-- PhotographyBlog — 4.5/5
-- The Phoblographer — 3/5
-- ePhotozine, Fstoppers, Digital Camera World, RTINGS
+- ⚠️ External link — [Sony a6700 Review — DPReview](https://www.dpreview.com/reviews/sony-a6700-review) — accessed 2026-03-25

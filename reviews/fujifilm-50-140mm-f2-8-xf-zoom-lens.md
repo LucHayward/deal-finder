@@ -1,26 +1,26 @@
 # Fujifilm XF 50-140mm f/2.8 R LM OIS WR
 
-**Score: 9/10**
 **Listing price: R13,000**
 
-## Summary
+DxOMark: N/A — lens is listed on DxOMark but no numeric score is published (specs only). Best-in-class Fujifilm X-mount lens scores range ~40–50 for top primes.
 
-- ✅ Exceptional sharpness wide open at f/2.8 across the full zoom range
-- ✅ Outstanding 5-stop OIS — one of the best stabilisation systems in the X-mount lineup
-- ✅ Pro-grade weather-sealed metal build; comparable to full-frame 70-200mm f/2.8 but ~40% lighter
-- ✅ Fast, quiet autofocus (LM motors); compatible with 1.4x and 2.0x teleconverters
-- ❌ Large and heavy (~995g) for a mirrorless system lens
-- ❌ Disappointing minimum focus distance and low maximum magnification
-- ❌ Bokeh can be slightly nervous/busy in some situations; occasional ghosting/flare
+## Pros
+- Constant f/2.8 across the full zoom range — rare for a telephoto zoom
+- Excellent sharpness corner-to-corner, even wide open; strong contrast and colour rendering
+- Effective OIS and fast, silent linear motor AF — reliable for action and wildlife
+- Fully weather-sealed; pro-grade build quality holds up in harsh conditions
+- Equivalent to 76–213mm FF — versatile for portraits, sports, wildlife, and landscape compression
+
+## Cons
+- Heavy at 995g — not a casual carry lens
+- Bulky; requires a dedicated bag slot
+- Premium price; 2x teleconverter compatibility degrades sharpness noticeably
+- No tripod collar included
 
 ## Best Use Cases
-
-Portraits, weddings, events, sports, wildlife, documentary — any situation demanding fast aperture, reach, and reliability in variable conditions.
+Portraits, weddings, sports, wildlife, landscape compression, event photography. Ideal when you need consistent f/2.8 reach without switching lenses.
 
 ## Sources
-
-- [Digital Camera World](https://www.digitalcameraworld.com/reviews/fujifilm-fujinon-xf50-140mm-f28-r-lm-ois-wr-review)
-- [DPReview community (avg 4.5/5)](https://www.dpreview.com/products/fujifilm/lenses/fujifilm_xf_50-140_2p8_ois_wr/user-reviews)
-- [Fstoppers](https://fstoppers.com/originals/fstoppers-reviews-fujifilm-xf-50-140mm-f28-r-lm-ois-wr-lens-176642)
-- [The Bumper Crew](https://www.thebumpercrew.com/fujinon-xf-50-140mm-review/)
-- [Photography Blog](https://www.photographyblog.com/reviews/fujifilm_xf_50_140mm_f2_8_r_lm_ois_wr_review)
+- [DxOMark — Fujifilm FUJINON XF50-140mmF2.8 R LM OIS WR](https://www.dxomark.com/Lenses/Fujifilm/Fujifilm-FUJINON-XF-50-140mm-F28-R-LM-OIS-WR---Measurements) — accessed 2026-03-25
+- ⚠️ External link — [Fujifilm 50-140mm f/2.8 Review (Long Term) — Ultralight Photography](https://ultralightphotography.net/fujifilm-50-140mm-review/) — accessed 2026-03-25
+- ⚠️ External link — [Fujinon XF 50-140mm F2.8 OIS Review — Dustin Abbott](https://dustinabbott.net/2020/08/fujinon-xf-50-140mm-f2-8-ois-review/) — accessed 2026-03-25
