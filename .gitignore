@@ -11,3 +11,4 @@ wheels/
 
 # Facebook session cookies (sensitive)
 fb_cookies.json
+refresh.log
